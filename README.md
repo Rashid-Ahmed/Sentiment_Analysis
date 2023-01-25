@@ -1,0 +1,1 @@
+This tool is built to analyze sentence sentiments using multiple different machine learning algorithms including Deberta (Bert based transformer), XGBoost and LSTMs and trained on amazon's multi reviews dataset (400k) examples. 

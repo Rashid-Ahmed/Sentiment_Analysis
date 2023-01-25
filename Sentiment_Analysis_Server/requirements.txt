@@ -1,0 +1,12 @@
+pip install pandas
+pip install numpy
+pip install pytorch (for faster results install pytorch gpu)
+pip install transformers
+pip install fasttext
+pip install scikit-learn
+pip install xgboost
+pip install vaderSentiment
+
+https://www.dropbox.com/s/af6ygaxndmmrcl6/model_deberta.ckpt?dl=0 (model file)
+https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz (embedding file)
+ 
