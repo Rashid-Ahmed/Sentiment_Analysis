@@ -70,7 +70,7 @@ def start_tcp_server(IP, PORT, embedding_model, tokenizer, bert_model, LOGREG, X
             
             json_predictions = json.dumps(predictions)
             connection.send(json_predictions.encode())    
-            
+            connection.send('\n'.encode())
             
         connection.close()
         time.sleep(3)
