@@ -5,6 +5,7 @@ import copy
 import numpy as np
 from collections import Counter
 import json
+import time
 
 def start_tcp_server(IP, PORT, embedding_model, tokenizer, bert_model, LOGREG, XGBClassifier, Vader, MODEL_LSTM, SENTENCE_SIZE, EMBEDDING_SIZE, device):
     
@@ -69,6 +70,7 @@ def start_tcp_server(IP, PORT, embedding_model, tokenizer, bert_model, LOGREG, X
             
             json_predictions = json.dumps(predictions)
             connection.send(json_predictions.encode())    
-            connection.send('\n'.encode())
+            
             
         connection.close()
+        time.sleep(3)
