@@ -16,4 +16,4 @@ Deberta (Bert based transformer)
 
 ## Dataset
 
-The dataset used to train the models is amazon multireviews dataset (Approximately 1 million reviews of mixed type of produts)
+The dataset used to train the models is amazon multireviews dataset (Approximately 1 million reviews of mixed type of products)
