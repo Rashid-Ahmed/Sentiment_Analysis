@@ -1,4 +1,4 @@
-# Sentence Sentiment Analysis Tool
+# Sentiment Analysis Tool
 This is a Github repository for a tool that analyzes the sentiment of sentences using multiple machine learning algorithms including BERT based transformers, XGBoost, Logistic regression and LSTMs. The tool has been trained on Amazon's multi-reviews dataset, which includes 400k examples.
 
 ## Usage
