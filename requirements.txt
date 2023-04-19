@@ -8,6 +8,6 @@ pip install xgboost
 pip install vaderSentiment
 pip install protobuf
 
-https://www.dropbox.com/s/af6ygaxndmmrcl6/model_deberta.ckpt?dl=0 (model model file, rename it to model_deberta.ckpt after download it)
-https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz (embedding file extract it after downloading)
+https://www.dropbox.com/s/af6ygaxndmmrcl6/model_deberta.ckpt?dl=0 (model file, rename it to model_deberta.ckpt after downloading it)
+https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz (fasttext embedding file extract it after downloading)
 put both the above files in checkpoints folder 
