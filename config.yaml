@@ -8,5 +8,6 @@ model_name: microsoft/deberta-v3-base
 data_dir: data
 data_len: 205000
 file_name: sentiment_data.csv
-ip: "127.0.0.1"
+ip: 127.0.0.1
 port: 10000
+device: cpu
