@@ -1,5 +1,5 @@
 # Sentiment Analysis Tool
-This is a Github repository for a tool that analyzes the sentiment of sentences using multiple machine learning algorithms including BERT based transformers, XGBoost, Logistic regression and LSTMs. The tool has been trained on Amazon's multi-reviews dataset, which includes 400k examples.
+This is a Github repository for a tool that analyzes the sentiment of sentences using multiple machine learning algorithms including BERT based transformers, XGBoost, Logistic regression and LSTMs. The tool has been trained on Amazon's multi-reviews dataset, which includes over 1 million examples.
 
 ## Usage
 To use the tool, run the sentiment_server.py script. You can customize the settings in the config.yaml file to change the network parameters, model used, and other hyperparameters.
